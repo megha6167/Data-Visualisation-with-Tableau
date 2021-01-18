@@ -21,3 +21,9 @@ But found an alternative way to perform the same function by
 You can find it under the name of Sheet(Count).
 
 Week 3 practice problems
+1. Documentation error in the problem set.
+'Shih Tzu' was written as 'Shih Tzus' which didn't give correct answers.
+2. joining the tables in zip code corrected data. Find out how to use actual joins and avoid using relationships
+https://help.tableau.com/current/pro/desktop/en-us/joining_tables.htm#:~:text=Double%2Dclick%20or%20drag%20another,table%20to%20the%20join%20canvas.
+3. Use ATTR in RANK to solve some of your problems
+
