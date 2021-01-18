@@ -1,0 +1,23 @@
+Week 3 problems(no problems were faced during weeks 1 and 2)
+*These solutions are found out with the help of coursera discussion forums*
+
+1. Stacking of Adjusted Paid Wage over Paid wage per year.
+As default, when you move 'Measure Names' to size in Marks card you'll see a thin bar over the thick bar which is useless to look at.
+So, to correct this you can use Analysis > Stack Marks > Off. This will remove the stacking of the two values.
+
+2. Unable to perform Table Calculations
+The table calculations are shown as invalid with a red pill.
+Couldn't find why this was happening or how to correct it.
+But found an alternative way to perform the same function by
+-make a new calculated field 'Rank' with the code:"RANK([Adjusted Paid Wage],'desc')"
+-drag this field to details
+-make a table calculation for this field
+-choose specific dimensions and tick both job title subgroup and work state
+-set at the level to work state
+-set restarting at to job title subgroup
+-change the field to discrete and drag it to the columns 
+
+3.Not able to locate the 'Number of Records' field.
+You can find it under the name of Sheet(Count).
+
+Week 3 practice problems
